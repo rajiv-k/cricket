@@ -10,6 +10,13 @@ When asked to do anything by its clients, it just "nods" its imaginary head and 
 It's **NOT** meant to be used for anything serious at all.
 
 
+## But why?
+tl;dr: because we can!
+
+Besides, it helps one to see what is happening under the hood and gain a deeper understanding of the layers beneath the kubelet.
+
+I created this mostly for fun ~~and no profit~~.
+
 ## Build
 
 ```sh
@@ -33,3 +40,39 @@ RuntimeVersion:  v0.4.20
 RuntimeApiVersion:  v1alpha1
 ```
 
+## Supported commands
+
+- [x] Version
+- [ ] RunPodSandbox
+- [ ] StopPodSandbox
+- [ ] RemovePodSandbox
+- [ ] PodSandboxStatus
+- [ ] ListPodSandbox
+- [ ] CreateContainer
+- [ ] StartContainer
+- [ ] StopContainer
+- [ ] RemoveContainer
+- [ ] ListContainers
+- [ ] ContainerStatus
+- [ ] UpdateContainerResources
+- [ ] ReopenContainerLog
+- [ ] ExecSync
+- [ ] Exec
+- [ ] Attach
+- [ ] PortForward
+- [ ] ContainerStats
+- [ ] ListContainerStats
+- [ ] PodSandboxStats
+- [ ] ListPodSandboxStats
+- [ ] UpdateRuntimeConfig
+- [ ] Status
+- [ ] CheckpointContainer
+- [ ] GetContainerEvents
+- [ ] ListMetricDescriptors
+- [ ] ListPodSandboxMetrics
+- [ ] RuntimeConfig
+- [ ] ListImages
+- [ ] ImageStatus
+- [ ] PullImage
+- [ ] RemoveImage
+- [ ] ImageFsInfo
